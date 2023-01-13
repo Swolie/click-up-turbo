@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Clickup Turbo",
+  "description": "Introducing ClickUp Turbo - the ultimate productivity booster for ClickUp users. Say goodbye to slow downs and annoying issues, and hello to powerful new features and increased efficiency. With keyboard shortcuts and a variety of planned updates, including skins and themes, ClickUp Turbo will help you get more results and be more productive than ever before. Upgrade your ClickUp experience today with ClickUp Turbo!",
+  "version": "1.0",
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": [
+      "activeTab"
+  ],
+  "content_scripts": [
+      {
+          "matches": ["https://app.clickup.com/*", "https://clickup.com/*"],
+          "js": ["jquery-3.6.3.min.js", "content-script.js"],
+          "run_at": "document_idle"
+      }
+  ]
+}
