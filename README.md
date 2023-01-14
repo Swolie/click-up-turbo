@@ -17,15 +17,10 @@ https://user-images.githubusercontent.com/312995/212441826-1c793f2e-6492-48c1-97
 
 ## Usage
 
-Then you can use j/k to go up and down. 
-
-j = up 
-
-k = down
-
-Press x to toggle complete/not complete. 
-
-Press n to start a new task in the same list you're in.
+- Press <kbd>j</kbd> to navigate Up the task list items
+- Press <kbd>k</kbd> to navigate Down the task list items
+- Press <kbd>x</kbd> to toggle complete/not complete. 
+- Press <kbd>n</kbd> to start a new task in the same list you're in.
 
 
 
