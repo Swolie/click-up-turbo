@@ -24,6 +24,7 @@ j = up
 k = down
 
 Press x to toggle complete/not complete. 
+
 Press n to start a new task in the same list you're in.
 
 
